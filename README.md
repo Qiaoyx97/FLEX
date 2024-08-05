@@ -30,7 +30,7 @@ The environment settings needed to run the code:
     - opencv-python-headless (4.7.0.72)
     - openslide-python (1.1.2)
  
- ## Data Preparation
+## Data Preparation
 We have provided a test sample in [sample](https://github.com/Qiaoyx97/FLEX/tree/main/sample). image is a 1024×1024 `.npy` file. Clinical data, proteomics data and metabolomics data, are stored as `.csv` files. Folder structure for data storage:
 ```
 sample/
@@ -43,5 +43,23 @@ sample/
      ├── proteomics_file.csv
      └── metabolomics_file.csv
 ```
-Details of preprocessing methods for image data are given in [preprocess].
+Details of preprocessing methods for image data are given in [preprocess](https://github.com/Qiaoyx97/FLEX/tree/main/preprocess).
 
+## Training
+Enter the [run](https://github.com/Qiaoyx97/FLEX/tree/main/run) folder using the following command:
+```
+sh run_main
+```
+The code defaults to running a model that fuses four modalities: image, clinical, proteomics, and metabolomics. You can modify the modalities you want to fuse and the basic parameters such as the loss function in configs.py in the [configs]((https://github.com/Qiaoyx97/FLEX/tree/main/configs) folder.
+
+## Evaluation
+Enter the [run](https://github.com/Qiaoyx97/FLEX/tree/main/run) folder using the following command:
+```
+sh run_test
+```
+
+## Issues
+Please report all issues on the public forum.
+
+## License
+This project is free to use for non-commercial purposes - see the [LICENSE](https://github.com/Qiaoyx97/FLEX/tree/main/LICENSE)  file for details.
