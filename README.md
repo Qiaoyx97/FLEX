@@ -29,4 +29,15 @@ The environment settings needed to run the code:
     - Imbalanced-learn (0.8.1)
  
  ## Data Preparation
-We have provided a test [sample](https://github.com/Qiaoyx97/FLEX/tree/main/sample) in sample. image is a 1024×1024 .npy file. Clinical data, proteomics data and metabolomics data, are stored as .csv files.
+We have provided a test sample in [sample](https://github.com/Qiaoyx97/FLEX/tree/main/sample). image is a 1024×1024 `.npy` file. Clinical data, proteomics data and metabolomics data, are stored as `.csv` files. Folder structure for data storage:
+```
+sample/
+    ├── images/
+         └── image_files
+                ├── slide_1.npy
+                ├── slide_2.npy
+                └── ...
+     ├── clinical_file.csv
+     └── clinical_file.csv
+
+```
