@@ -1,3 +1,3 @@
 # A multi-modal fusion model with enhanced feature representation for chronic kidney disease progression prediction 
- <img src="[https://github.com/Qiaoyx97/FLEX/main/pipeline.png](https://github.com/Qiaoyx97/FLEX/blob/main/pipeline.png)" width="200" />
+ <img src="https://github.com/Qiaoyx97/FLEX/main/pipeline.png" width="200" />
 
