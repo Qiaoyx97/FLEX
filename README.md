@@ -7,7 +7,9 @@ In this work we present FLEX，a multi-modal fusion model that integrates clinic
 © This code is made available for non-commercial academic purposes.
 
 ## Clone the Repository
-`https://github.com/Qiaoyx97/FLEX.git`
+```
+https://github.com/Qiaoyx97/FLEX.git
+```
 
 ## Installation
 The environment settings needed to run the code:
