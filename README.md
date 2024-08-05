@@ -13,7 +13,8 @@ https://github.com/Qiaoyx97/FLEX.git
 
 ## Installation
 The environment settings needed to run the code:
-- Linux (Ubuntu 18.04.6 LTS on NVIDIA A100)
+- Linux (Tested on Ubuntu 18.04.6)
+- NVIDIA GPU (Tested on Nvidia A100)
 - CUDA (11.3)
 - Package
     - Python (3.6.9)
@@ -26,3 +27,6 @@ The environment settings needed to run the code:
     - tqdm (4.64.1)
     - Albumentations (1.3.0)
     - Imbalanced-learn (0.8.1)
+ 
+ ## Data Preparation
+We have provided a test sample in sample. image is a 1024×1024 .npy file. Clinical data, proteomics data and metabolomics data, are stored as .csv files.
