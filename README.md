@@ -50,7 +50,7 @@ Enter the [run](https://github.com/Qiaoyx97/FLEX/tree/main/run) folder using the
 ```
 sh run_main
 ```
-The code defaults to running a model that fuses four modalities: image, clinical, proteomics, and metabolomics. You can modify the modalities you want to fuse and the basic parameters such as the loss function in configs.py in the [configs]((https://github.com/Qiaoyx97/FLEX/tree/main/configs) folder.
+The code defaults to running a model that fuses four modalities: image, clinical, proteomics, and metabolomics. You can modify the modalities you want to fuse and the basic parameters such as the loss function in configs.py in the [configs](https://github.com/Qiaoyx97/FLEX/tree/main/configs) folder.
 
 ## Evaluation
 Enter the [run](https://github.com/Qiaoyx97/FLEX/tree/main/run) folder using the following command:
