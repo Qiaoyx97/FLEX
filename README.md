@@ -6,6 +6,9 @@ In this work we present FLEX，a multi-modal fusion model that integrates clinic
 
 © This code is made available for non-commercial academic purposes.
 
+## Clone the Repository
+``
+
 ## Installation
 The environment settings needed to run the code:
 - Linux (Ubuntu 18.04.6 LTS on NVIDIA A100)
