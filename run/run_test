@@ -1,0 +1,2 @@
+cd ..
+python3 main_test.py -ic --embeding_fc_dims 10
